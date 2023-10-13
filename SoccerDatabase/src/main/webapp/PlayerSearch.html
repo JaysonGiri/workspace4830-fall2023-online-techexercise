@@ -1,0 +1,93 @@
+<html>
+<head>
+	<title>SoccerDatabase.com</title>
+	<link rel="icon" type="image/x-icon" href="fifaworldcup.jpeg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+<style>
+body {
+	background-color: #9df9ef;
+	font-family: 'Quicksand', sans-serif;
+}
+header {
+    background-color:#33E0FF;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#ffa8B6;
+    height: 500px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+button {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 10px;
+	
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color: #3346FF;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+.field {
+	background-color: #ffa8B6;
+}
+.touch {
+	background-color: #8458B3;
+}
+img {
+	padding:50px;
+	border-radius: 75px;
+	width: 500px;
+    height: auto;
+	float: right;
+	margin-right: 100px;
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1><b>Soccer Database</b></h1>
+</header>
+
+<nav>
+<button type="button" onclick="window.location.href = '/SoccerDatabase/HomePage.html';">Home Page</button>
+<button type="button" onclick="window.location.href = '/SoccerDatabase/PlayerInsert.html';">Insert Player!</button>
+</nav>
+
+<img src="KM10.jpeg" alt="Kylian Mbappe" />
+
+<section>
+	<h1>Search Player:</h1>
+	
+	
+	<form action="PlayerSearchPrakash" method="POST">
+	
+		Player Name: <input class="field" type="text" name="keyword"> <br /><br>
+		
+		<input class="touch" type="submit" value="Search Player!" />
+	</form>
+
+</section>
+
+<footer>
+Copyright © 2003 - SANJAY. All rights reserved
+</footer>
+</body>
+</html>
